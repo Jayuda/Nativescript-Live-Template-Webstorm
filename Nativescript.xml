@@ -1,0 +1,23 @@
+<templateSet group="Nativescript">
+  <template name="&lt;action-bar&gt;" value="&lt;action-bar title=&quot;Nama Menu Actionbar&quot; backgroundColor=&quot;#009688&quot; color=&quot;#f1f1f1&quot;/&gt;" description="Action-bar" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="&lt;NavigationButton&gt;" value="&lt;NavigationButton text=&quot;Text Navigation&quot; android.systemIcon=&quot;ic_menu_back&quot; tap=&quot;tapFunction&quot;/&gt;" description="NavigationButton" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="&lt;ActionBar.actionItems&gt;" value="&lt;ActionBar.actionItems&gt;&#10;    &lt;ActionItem text=&quot;ITEM 1&quot; ios.position=&quot;right&quot; android.position=&quot;popup&quot; class=&quot;Material info clear-btn gray&quot; style=&quot;color:green;&quot; tap=&quot;tapFunction&quot;/&gt;&#10;    &lt;ActionItem text=&quot;ITEM 1&quot; ios.position=&quot;right&quot; android.position=&quot;popup&quot; class=&quot;Material info clear-btn gray&quot; style=&quot;color:red;&quot; tap=&quot;tapFunction&quot;/&gt;&#10;&lt;/ActionBar.actionItems&gt;&#10;" description="Menu pop up on action bar" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>
